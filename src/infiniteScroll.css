@@ -1,0 +1,23 @@
+.infiniteBanner{
+    font-size: 2.3vw;
+    width: 100%;
+    white-space: nowrap;
+    animation-name: InfiniteBanner;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear
+}
+.banner-container{
+    overflow: hidden;
+}
+.header-banner-wrap{
+    overflow:hidden
+}
+@keyframes InfiniteBanner{
+    from {
+        transform: translateX(0%)
+    }
+    to{
+        transform: translateX(-100%)
+    }
+}
