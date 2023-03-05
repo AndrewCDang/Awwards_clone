@@ -19,11 +19,11 @@ const Header = () => {
         siteName: "Traffic Productions", daysOld: daysOld(0),  rating: "7.57", type: "Site of the Day", imgUrl:"./Images/site-day.jpeg", company: "Holographik", design:"7.61", usability:"7.35,", creativity:"7.91", content:"7.41", 
     })
     const [prevSitesOfDay, prevSitesState] = useState([
-        { siteName: "Atria", daysOld: daysOld(1),  rating: "7.60", type: "Site of the Day", imgUrl:"./Images/sotd-0.jpeg", company: "Non-Linear Studio", design:"7.82", usability:"7.37,", creativity:"7.52", content:"7.58" },
-        { siteName: "Eco", daysOld: daysOld(2),  rating: "7.75", type: "Site of the Day", imgUrl:"./Images/sotd-1.png", company: "Aristide Benoist", design:"7.84", usability:"7.42,", creativity:"7.95", content:"8.02" },
-        { siteName: "Halo Media", daysOld: daysOld(3),  rating: "7.36", type: "Site of the Day", imgUrl:"./Images/sotd-2.jpeg", company: "Mallard & Claret", design:"7.36", usability:"7.23,", creativity:"7.43", content:"7.63" },
-        { siteName: "Axis Arbor", daysOld: daysOld(4),  rating: "7.62", type: "Site of the Day", imgUrl:"./Images/sotd-3.png", company: "Mallard & Claret", design:"7.91", usability:"7.35,", creativity:"7.53", content:"7.41" },
-        { siteName: "Carolina Herrera Virtual Store", daysOld: daysOld(5),  rating: "7.97", type: "Site of the Day", imgUrl:"./Images/sotd-4.jpeg", company: "Immersive Garden", design:"8.13", usability:"7.49,", creativity:"8.39", content:"7.89" },
+        { siteName: "Atria", daysOld: daysOld(1),  rating: "7.60", type: "Site of the Day", imgUrl:"./Images/sotd-0.jpeg", company: "Non-Linear Studio", design:"7.82", usability:"7.37", creativity:"7.52", content:"7.58" },
+        { siteName: "Eco", daysOld: daysOld(2),  rating: "7.75", type: "Site of the Day", imgUrl:"./Images/sotd-1.png", company: "Aristide Benoist", design:"7.84", usability:"7.42", creativity:"7.95", content:"8.02" },
+        { siteName: "Halo Media", daysOld: daysOld(3),  rating: "7.36", type: "Site of the Day", imgUrl:"./Images/sotd-2.jpeg", company: "Mallard & Claret", design:"7.36", usability:"7.23", creativity:"7.43", content:"7.63" },
+        { siteName: "Axis Arbor", daysOld: daysOld(4),  rating: "7.62", type: "Site of the Day", imgUrl:"./Images/sotd-3.png", company: "Mallard & Claret", design:"7.91", usability:"7.35", creativity:"7.53", content:"7.41" },
+        { siteName: "Carolina Herrera Virtual Store", daysOld: daysOld(5),  rating: "7.97", type: "Site of the Day", imgUrl:"./Images/sotd-4.jpeg", company: "Immersive Garden", design:"8.13", usability:"7.49", creativity:"8.39", content:"7.89" },
         { siteName: "CMCC", daysOld: daysOld(6),  rating: "7.77", type: "Site of the Day", imgUrl:"./Images/sotd-5.png", company: "Immersive Garden", design:"7.77", usability:"7.66,", creativity:"7.31", content:"7.40" }
     ]);
     return(

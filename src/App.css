@@ -543,6 +543,38 @@ html{
   font-weight: bold;
   border-radius: 6px;
 }
+.prev-SOTD-table{
+  margin-top: 16px;
+  width: 260px;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 65px 65px 65px 65px; 
+  overflow: hidden;
+  border: 1px solid #3a3a3a;
+}
+.SOTD-table-col{
+  flex:1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: center;
+  padding: 0px 16px;
+  border-right: 1px solid #3a3a3a;
+}
+.SOTD-table-col > p {
+  text-align: center;
+  font-size: 10px;
+  place-self: center;
+}
+.SOTD-table-col > p:first-child {
+  border-bottom: 1px solid #3a3a3a;
+  width: 250%;
+  padding-bottom: 8px;
+  
+}
+.SOTD-table-col > p:last-child {
+  margin-top: 0;
+  font-size: 12px;
+}
 .company-text{
   display: inline-block;
   padding-bottom: 4px;
@@ -552,6 +584,7 @@ html{
   font-weight: bold;
 }
 .company-gridrow{
+  margin-top: 16px;
   display: flex;
   align-items: center;
 }

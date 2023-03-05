@@ -47,7 +47,7 @@ const Misc = () => {
                     <p>Privacy Policy</p>
                 </div>
                 <div className="misc-ts-items">
-                    <p className="bold"> Conntect:</p>
+                    <p className="bold"> Connect:</p>
                     <p>Instagram</p>
                     <p>LinkedIn</p>
                     <p>Twitter</p>

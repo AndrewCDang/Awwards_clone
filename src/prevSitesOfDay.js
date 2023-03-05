@@ -21,8 +21,20 @@ const prevSitesOfDay = (props) =>{
                             </div>
                             <div className="prev-SOTD-table">
                                 <div className="SOTD-table-col">
-                                    <p>Design</p>
-                                    <p>{prevSite.design}</p>
+                                    <p className="caption">DESIGN</p>
+                                    <p className="bold">{prevSite.design}</p>
+                                </div>
+                                <div className="SOTD-table-col">
+                                    <p className="caption">USABILITY</p>
+                                    <p className="bold">{prevSite.usability}</p>
+                                </div>
+                                <div className="SOTD-table-col">
+                                    <p className="caption">CREATIVITY</p>
+                                    <p className="bold">{prevSite.creativity}</p>
+                                </div>
+                                <div className="SOTD-table-col">
+                                    <p className="caption">CONTENT</p>
+                                    <p className="bold">{prevSite.content}</p>
                                 </div>
                             </div>
                         </div>
