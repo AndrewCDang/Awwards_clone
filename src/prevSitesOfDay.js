@@ -1,4 +1,4 @@
-
+// SOTD - Pushing objects and mapping each object into its own object
 const prevSitesOfDay = (props) =>{
     const prevSites = props.prevSitesOfDay
     return(
@@ -45,3 +45,4 @@ const prevSitesOfDay = (props) =>{
     )
 }
 export default prevSitesOfDay;
+
